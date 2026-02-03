@@ -3,4 +3,4 @@ def compute_bonus(salary: float) -> float:
         raise ValueError("Salary must be positive")
     if salary < 50000:
         return salary * 0.05
-    return salary * 0.10
+    return salary * 0.30
